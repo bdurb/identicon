@@ -1,6 +1,13 @@
 # Identicon
 
-**TODO: Add description**
+**Identicon Generator**
+takes an imput string, and generates a mirrored 5 x 5 identicon image
+based on that input.
+In your terminal run `iex -S mix` to start elixir.
+Then run `Identicon.main('string here')` to generate your identicon.
+Your identicon will save as a .png file
+
+Have Fun!
 
 ## Installation
 
