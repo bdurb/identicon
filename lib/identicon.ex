@@ -1,5 +1,12 @@
 defmodule Identicon do
+  @moduledoc """
+    Creates a 5 x 5 identicon .png image based on a string input
+  """
   
+  @doc """
+  Takes a string input, pipes through all other functions, and saves
+  a .png image to the project.
+  """
   def main(input) do
     input
     |> hash_input
